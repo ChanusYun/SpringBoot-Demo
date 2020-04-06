@@ -7,7 +7,7 @@
  * History:
  * <author>          <time>          <version>          <desc>
  */
-package pers.chaus.springboot.demo.helloworld.controller;
+package pers.chanus.springboot.demo.helloworld.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
