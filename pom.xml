@@ -6,6 +6,7 @@
   <modules>
     <module>SpringBoot-HelloWorld</module>
     <module>SpringBoot-HelloWorld2</module>
+    <module>SpringBoot-MultiEnvironment</module>
   </modules>
 
   <parent>

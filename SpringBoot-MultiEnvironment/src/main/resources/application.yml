@@ -1,0 +1,22 @@
+# 切换不同的环境配置可修改 spring.profiles.active
+# 打包部署后运行，可通过 --spring.profiles.active 来执行环境配置
+# 如：java -jar SpringBoot-MultiEnvironment-1.0.0.jar --spring.profiles.active=dev
+
+spring:
+  profiles:
+    active: prod
+
+---
+spring:
+  profiles: dev
+name: 开发环境
+
+---
+spring:
+  profiles: test
+name: 测试环境
+
+---
+spring:
+  profiles: prod
+name: 生产环境
