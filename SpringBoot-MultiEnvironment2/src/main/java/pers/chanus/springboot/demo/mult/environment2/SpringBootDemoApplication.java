@@ -17,7 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * @author Chanus
  * @date 2020/4/7 22:36
- * @since 0.0.1
+ * @since 1.0.0
  */
 @SpringBootApplication
 public class SpringBootDemoApplication {
