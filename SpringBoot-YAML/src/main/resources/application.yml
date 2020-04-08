@@ -1,0 +1,31 @@
+# 字面量：普通值(数字、字符串、布尔)
+s: a,b,c,d,e,f,g # 字符串默认不用加上单引号或者双引号
+a: aa, bb, cc # 数组，List
+b: true, False # true、True、false、False都可以
+f: 3.14, 6.8523015e+5  #可以使用科学计数法
+d: -10, 100, 0
+n: ~ # 使用~表示null
+
+# 对象、Map，（key: value，用冒号分隔，冒号后面用空格来分开键值）
+person:
+  id: 1
+  userName: 赵云
+  sex: M
+  birthday: 1990/02/11
+  work: false
+  # 数组：List、Set（-表示数组中的一个元素）
+  interest:
+    - reading
+    - write
+    - singing
+  list: [cat, dog, fish]
+#    - cat
+#    - dog
+#    - fish
+  map: {key1: value1, key2: 值2, key3: 1000}
+#    key1: value1
+#    key2: 值2
+#    key3: 1000
+  dog:
+    name: 小黑
+    age: 3
