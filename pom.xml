@@ -9,6 +9,7 @@
     <module>SpringBoot-MultiEnvironment</module>
     <module>SpringBoot-MultiEnvironment2</module>
     <module>SpringBoot-YAML</module>
+    <module>SpringBoot-Properties</module>
   </modules>
 
   <parent>
